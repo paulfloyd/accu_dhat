@@ -1,0 +1,49 @@
+{"dhatFileVersion":2
+,"mode":"heap","verb":"Allocated"
+,"bklt":true,"bkacc":true
+,"tu":"instrs","Mtu":"Minstr"
+,"tuth":500
+,"cmd":"./main"
+,"pid":84710
+,"te":5513707
+,"tg":5063887
+,"pps":
+ [{"tb":4096,"tbk":1
+  ,"tl":1225760
+  ,"mb":4096,"mbk":1
+  ,"gb":4096,"gbk":1
+  ,"eb":4096,"ebk":1
+  ,"rb":48,"wb":48
+  ,"fs":[1,2,3,4,5,6,7,8,9]
+  }
+ ,{"tb":56000,"tbk":1000
+  ,"tl":620651711
+  ,"mb":56000,"mbk":1000
+  ,"gb":56000,"gbk":1000
+  ,"eb":0,"ebk":0
+  ,"rb":29032,"wb":57992
+  ,"acc":[-8,3002,-8,5001,-4,2000,-12,0,2000,-13,1000,-10,0]
+  ,"fs":[10,11,12,13,14,15,16,17]
+  }
+ ]
+,"ftbl":
+ ["[root]"
+ ,"0x4AF33B4: ??? (in /lib/libc.so.7)"
+ ,"0x4B04244: ??? (in /lib/libc.so.7)"
+ ,"0x4AF2062: ??? (in /lib/libc.so.7)"
+ ,"0x4AF2937: fwrite (in /lib/libc.so.7)"
+ ,"0x2047B5: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::sputn[abi:se180100](char const*, long) (include/c++/v1/streambuf:219)"
+ ,"0x2045F0: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output[abi:se180100]<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (include/c++/v1/locale:1271)"
+ ,"0x2042E9: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence[abi:se180100]<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (include/c++/v1/ostream:674)"
+ ,"0x203958: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<<[abi:se180100]<std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) (include/c++/v1/ostream:787)"
+ ,"0x2036F9: main (main.cpp:21)"
+ ,"0x205014: void* std::__1::__libcpp_operator_new[abi:se180100]<unsigned long>(unsigned long) (include/c++/v1/new:271)"
+ ,"0x204F9C: std::__1::__libcpp_allocate[abi:se180100](unsigned long, unsigned long) (include/c++/v1/new:295)"
+ ,"0x204EE4: std::__1::allocator<std::__1::__list_node<TestClass, void*> >::allocate[abi:se180100](unsigned long) (include/c++/v1/__memory/allocator.h:125)"
+ ,"0x204E8C: std::__1::allocator_traits<std::__1::allocator<std::__1::__list_node<TestClass, void*> > >::allocate[abi:se180100](std::__1::allocator<std::__1::__list_node<TestClass, void*> >&, unsigned long) (include/c++/v1/__memory/allocator_traits.h:269)"
+ ,"0x204D58: std::__1::allocator<std::__1::__list_node<TestClass, void*> > std::__1::__allocation_guard<std::__1::allocator<std::__1::__list_node<TestClass, void*> > >::__allocation_guard[abi:se180100]<std::__1::allocator<std::__1::__list_node<TestClass, void*> > >(unsigned long) (include/c++/v1/__memory/allocation_guard.h:56)"
+ ,"0x204C22: std::__1::__list_node<TestClass, void*>* std::__1::__list_imp<TestClass, std::__1::allocator<TestClass> >::__create_node[abi:se180100]<>(std::__1::__list_node_base<TestClass, void*>*, std::__1::__list_node_base<TestClass, void*>*) (include/c++/v1/list:556)"
+ ,"0x20397F: TestClass& std::__1::list<TestClass, std::__1::allocator<TestClass> >::emplace_back<>() (include/c++/v1/list:1307)"
+ ,"0x20378B: main (main.cpp:26)"
+ ]
+}
