@@ -1,5 +1,5 @@
 .PHONY: all dhat
-all: main
+all: main dhat
 
 CXXFLAGS += -g
 CXX = clang++
